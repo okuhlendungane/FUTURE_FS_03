@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gambu-Line Hiring Services</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--  FONT playfair-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+<!--    font import Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+<main-header
+homeLink="#home"
+aboutLink="#about"
+servicesLink="#services"
+contactLink="#contact"
+>
+</main-header>
+<div class="home-container" id="home">
+    <div class="home-text">
+        <h1>Gambu-Line Hiring Services.</h1>
+        <p> Gambu-Line Hiring Services provides high-quality mobile cold rooms, VIP & VVIP toilets, chairs, tables, and professional sound systems with microphones—everything you need to run a seamless event. We bring convenience, comfort, and reliability straight to your venue, so you can focus on making your event unforgettable.</p>
+        <a href="#services" class ="cta-button"> Learn More</a>
+    </div>
+    <div class="home-img">
+        <img src="../img/img1.jpeg" alt="Mobile Toilet" width="400" height="800">
+    </div>
+</div>
+
+<div id="services" class="service-container">
+    <div class="service-content">
+    <h1>What We Offer</h1>
+        <service-card
+                imgLink="../img/img5.jpeg"
+                itemName="VIP Toilets">
+        </service-card>
+        <service-card
+                imgLink="../img/img8.jpeg"
+                itemName="VVIP Toilets">
+        </service-card>
+        <service-card
+                imgLink="../img/img3.jpeg"
+                itemName="Mobile Coldroom">
+        </service-card>
+        <service-card
+                imgLink="../img/img7.jpeg"
+                itemName="Sound Systems">
+        </service-card>
+    </div>
+    <a class="primary-button" href="services.html"> Learn More</a>
+</div>
+
+<div id="about" class="about-container">
+    <div class="about-content">
+        <h1>About Us</h1>
+        <p>Gambu-Line Hiring Services is a service delivery business owned by Mzolisi Ndungane, proudly operating in and around Mthatha. We specialize in providing essential event equipment to support a wide range of occasions, including weddings, funerals, church services, and family gatherings.
+
+            Our focus is on reliable, on-time delivery and meeting the practical needs of our customers. Whether it’s keeping your refreshments and meat fresh with our mobile cold rooms, or ensuring your guests’ comfort with clean, high-quality mobile toilets, we help you host with confidence.
+
+            At Gambu-Line Hiring Services, we bring convenience to your doorstep—so you can focus on your event without worrying about logistics or added strain on your home facilities.</p>
+    </div>
+        <img class="about-img" src="../img/img2.jpeg"  width="400" height="600" alt="image of owner">
+
+</div>
+
+<div class="contact-section" id="contact">
+    <div class="contact-content">
+        <h3>Get In Touch</h3>
+        <h2>Have any questions or would like to place an order, fill in the form and I'll get in touch.</h2>
+    </div>
+    <div class="contact-form">
+            <form action="../form.php" method="post" >
+                <label>Follow Up Form</label>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="primary-button" value="submit">Send Message</button>
+            </form>
+        </div>
+
+
+
+</div>
+<main-footer></main-footer>
+
+</body>
+</html>
